@@ -7,8 +7,11 @@ This project allows users to hide secret messages inside an image and retrieve t
 Features
 
 ✅ Hide a secret message inside an image using a password.
+
 ✅ Retrieve the message only with the correct password.
+
 ✅ Uses image steganography for secure message encoding.
+
 ✅ Supports any JPEG/PNG image as a carrier.
 
 How It Works
