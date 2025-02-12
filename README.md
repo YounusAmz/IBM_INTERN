@@ -16,18 +16,11 @@ Features
 
 How It Works
 
-
-1. Encryption (encrypt.py)
-
 User enters a secret message and password.
 
 The message is hidden inside an image (Authentic.jpg).
 
 The encoded image is saved as encryptedImage.jpg.
-
-
-
-2. Decryption (decrypt.py)
 
 The program extracts the message from encryptedImage.jpg.
 
