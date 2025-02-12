@@ -1,6 +1,6 @@
 # IBM_INTERN
 
-Image Steganography: Encrypt & Decrypt Secret Messages
+ PixelVault: Encrypt & Decrypt Secrets in Images
 
 This project allows users to hide secret messages inside an image and retrieve them using a password-based decryption system.
 
