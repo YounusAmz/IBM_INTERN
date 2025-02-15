@@ -1,33 +1,20 @@
 # IBM_INTERN
+Image Steganography with Password Protection
 
- PixelVault: Encrypt & Decrypt Secrets in Images
+This project allows you to hide secret messages inside images and decrypt them securely using a password
 
-This project allows users to hide secret messages inside an image and retrieve them using a password-based decryption system.
-
-Features
-
-✅ Hide a secret message inside an image using a password.
-
-✅ Retrieve the message only with the correct password.
-
-✅ Uses image steganography for secure message encoding.
-
-✅ Supports any JPEG/PNG image as a carrier.
+Features Encrypt text inside PNG JPG and JPEG images Secure encryption with a password hash Decrypt messages only with the correct password Simple GUI interface using Tkinter
 
 How It Works
 
-User enters a secret message and password.
+Encryption Select an image Enter your secret message Set a password Save the encrypted image
 
-The message is hidden inside an image (Authentic.jpg).
+Decryption Select the encrypted image Enter the password Retrieve the hidden message
 
-The encoded image is saved as encryptedImage.jpg.
+Requirements Python tkinter Pillow stegano hashlib os
 
-The program extracts the message from encryptedImage.jpg.
+Usage Run the encryption or decryption script
 
-User enters the password to decrypt the message.
+python encrypt py To hide a message python decrypt py To reveal the message
 
-If the password matches, the secret message is displayed.
-
-
-
-
+Notes The correct password is required to decrypt the message JPG JPEG images are converted to PNG for better encryption
