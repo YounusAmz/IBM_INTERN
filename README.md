@@ -1,4 +1,4 @@
-# IBM_INTERN
+Steganography
 Image Steganography with Password Protection
 
 This project allows you to hide secret messages inside images and decrypt them securely using a password
